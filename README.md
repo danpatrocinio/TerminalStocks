@@ -1,1 +1,1 @@
-# Dockerfile para montagem da imagem com TerminalStocks 
+## Dockerfile para montagem da imagem com TerminalStocks 
