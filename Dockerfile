@@ -14,6 +14,8 @@ RUN go get github.com/brandleesee/TerminalStocks \
     && cd $GOPATH/src/github.com/brandleesee/TerminalStocks/ \
     && make install
 
+# COPY <config_file_example> /root/.TSrc
+
 WORKDIR $GOPATH
 
-CMD ["TerminalStocks"]
+# CMD ["TerminalStocks"]
